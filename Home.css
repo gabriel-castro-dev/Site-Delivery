@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+body{
+    border: 1px solid black;
+    background-image: url(Desktop\ -\ 7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#header
+{
+    width: 100%;
+    height: 15vh;
+    background: rgb(37,37,37);
+    background: linear-gradient(180deg, rgba(37,37,37,1) 0%, rgba(64,64,64,1) 35%, rgba(121,116,116,1) 100%);
+    display: flex;
+    align-items: center;
+    
+}
+    #Logo
+{
+    height: 120px;
+}
+#logoTopLeft{
+    width: 20%;
+    height: 100%;
+   
+
+}
+#headerCenter{
+    color: white;
+    font-size: 35px;
+    padding-left: 25%;
+    padding-right: 30%;
+}
+#headerTopRight
+{
+    padding-right: 35px;
+}
+#imagemInsta
+{
+    padding-right: 20px;
+    height: 40px;
+}
+#imagemFace
+{
+    height: 40px;
+}
+#links{
+    height:8vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    height: 40px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 550; 
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.button::before
+{
+    content: "";
+    width: 150px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    left: -130px;
+    top: 100%;
+    background-color: #f6952c;
+    z-index: 0;
+}
+.button:hover::before
+{
+    animation: desloca .5s;
+    left: 0;
+    top: 0;
+}
+
+@keyframes desloca {
+    0%{
+        left: -130px;
+        top: 100%; 
+    }
+    50%{
+        left: 15%;
+        top: -25%;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
+.button:hover span{
+    z-index: 1;
+    transform: scale(1.2);
+}
+
+#principal{
+    height: 80px;
+    padding-top: 40px;
+}
+#PratosPrincipais{
+font-size: 30px;
+color: white;
+font-weight: 400;
+padding-left: 44%;
+padding-bottom: 60px;
+}
+#imagesFood
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 120px;
+    
+}
+.steakBowl
+{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+.imgComida
+{
+    padding-top: 20px;
+}
+.nomePratos
+{
+    display: flex;
+    justify-content: center;
+}
+#footer
+{
+   display: flex;
+    color: white;
+    padding-top: 50px;
+    padding-left: 650px;
+}
+#frase1
+{
+    font-size: 40px;
+}
+#img{
+    padding-left: 70px;
+}

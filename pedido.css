@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    border: 1px solid black;
+    background: rgb(70,67,67);
+    background: linear-gradient(180deg, rgba(70,67,67,1) 0%, rgba(64,64,64,1) 35%, rgba(0,0,0,1) 100%);
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#header
+{
+    width: 100%;
+    height: 15vh;
+    background: rgb(37,37,37);
+    background: linear-gradient(180deg, rgba(37,37,37,1) 0%, rgba(64,64,64,1) 35%, rgba(121,116,116,1) 100%);
+    display: flex;
+    align-items: center;
+    
+}
+    #Logo
+{
+    height: 120px;
+}
+#logoTopLeft{
+    width: 20%;
+    height: 100%;
+   
+
+}
+#headerCenter{
+    color: white;
+    font-size: 35px;
+    padding-left: 25%;
+    padding-right: 30%;
+    width: 50px;
+}
+#headerTopRight
+{
+    padding-left: 190px;
+}
+#imagemInsta
+{
+    padding-right: 20px;
+    height: 40px;
+}
+#imagemFace
+{
+    height: 40px;
+}
+#Home
+{
+    padding-left: 50px;
+   
+   height: 80px;
+}
+#meio
+{
+    display: flex;
+    padding-top: 15px;
+    text-align: center;
+    height: 24vh;
+}
+#textCenter
+{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    padding-left: 37%;
+}
+
+#formulario{
+    height: 60vh;
+    padding-left: 50px;
+    width: 50%;
+    
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+.divForms{
+   border: 1px solid #fff;
+    background-color: #252525;
+   padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}    
+.nome{
+    padding-bottom: 10px;
+    color: #F6952C;
+    width: 250px;
+}
+#divTop1{
+    width: 300px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+#topInputs{
+  width: 50%;
+}
+#Email{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #F6952C;
+    width: 250px;
+}
+#divEmail{
+    border: 1px solid #fff;
+    background-color: #252525;
+   padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 550px;
+}
+
+::placeholder{
+    color: white;
+}
+#mid-down-input{
+    padding-top: 20px;
+}
+#mensagem{
+    padding-bottom: 10px;
+    color: #F6952C;
+    width: 250px;
+}
+#divMensagem{
+    border: 1px solid #fff;
+    background-color: #252525;
+   padding: 8px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 550px;
+    height: 150px;
+}
+#down-input{
+    padding-top: 20px;
+    width: 50%;
+}
+#down-input button{
+    width: 160px;
+    background-color: #F6952C;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #fff;
+}
+#meioPagina
+{
+    display: flex;
+    justify-content: center;
+}
+#inputsFormulario
+{
+    display: flex;
+}
+#topSenha{
+    padding-top: 20px;
+}
+
+#topInputsRight{
+    width: 50%;
+}
+#down-input2{
+    padding-top: 50px;
+    width: 50%;
+}
+#down-input2 button{
+    width: 160px;
+    background-color: #F6952C;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #fff;
+}
